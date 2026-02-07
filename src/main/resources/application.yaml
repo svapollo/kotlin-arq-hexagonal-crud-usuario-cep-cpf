@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+aws:
+  dynamodb:
+    table-name: tb_customer
+    region: sa-east-1
+    endpoint: http://localhost:4566
+
+apollo:
+  client:
+    address:
+      url: http://localhost:8082/addresses
