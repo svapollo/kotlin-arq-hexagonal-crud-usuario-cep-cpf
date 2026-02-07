@@ -4,6 +4,7 @@
 
 Este projeto utiliza a arquitetura hexagonal e é desenvolvido em Kotlin, com suporte a Java e Maven. Ele integra serviços como DynamoDB (via LocalStack), Kafka e WireMock para simulação de APIs externas.  
 Criado durante o curso [Arquitetura Hexagonal com Kotlin NA PRÁTICA](https://www.udemy.com/course/arquitetura-hexagonal-com-kotlin-na-pratica/), mas com algumas alterações como o banco utilizado aqui é o DynamoDB ao invés do MongoDB.
+
 ---
 
 ## Componentes do Sistema
